@@ -129,6 +129,20 @@ s.substring(11);
 >>> 'String';
 ```
 
+[toUpperCase](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+```javascript
+// Change string to uppercase
+s.toUpperCase();
+>>> 'THIS IS A STRING';
+```
+
+[toLowerCase](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
+```javascript
+// Change string to uppercase
+s.toLowerCase();
+>>> 'this is a string';
+```
+
 [Split](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 ```javascript
 // Split String into Array by specified character
