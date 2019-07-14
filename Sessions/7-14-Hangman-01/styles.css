@@ -1,0 +1,59 @@
+#garden {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  width: 95vw;
+  height: 95vw;
+  border: 1vw solid #6D5720;
+}
+
+.plot {
+  border: 1vw solid #6D5720;
+  background-image: url(https://cssgridgarden.com/images/dirt.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plot > .I, .plot > .G, .plot > .Y, .plot > .R, .plot > .B {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.I {
+  background-color: #09AFC1;
+}
+
+.G {
+  background-color: #D0C2A2;
+}
+
+.Y {
+  background-color: #FEC516;
+}
+
+.R {
+  background-color: #FE1303;
+}
+
+.B {
+  background-color: #6E2403;
+}
+
+#tiles {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#tiles > div {
+  width: 15vw;
+  height: 15vw;
+}
